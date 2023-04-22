@@ -26,6 +26,16 @@ html {
     align-items: center;
     justify-content: center;
 }
+.c-cyan{
+    color: var(--cyan);
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+p, span{
+    color: var(--softBlue);
+}
 .border{
     border: 1px solid black;
 }
@@ -35,9 +45,53 @@ body{
     line-height: 2;
     height: 100vh;
     width: 100vw;
+    background-color: var(--veryDarkBlue);
+    overflow: hidden;
+    flex-direction: column;
 }
 .container{
     flex-direction: column;
+    width: 40rem;
+    border-radius: 2rem;
+    background-color: var(--veryDarkBlue2);
+    padding: 2rem;
+}
+.container-image img{
+    border-radius: 1rem;
+    width: 35rem;
+}
+/* container-description */
+.title{
+    color: var(--white);
+    margin: 0;
+    margin-left: 2rem;
+}
+.description-text{
+    width: 38rem;
+    text-align: left;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    margin: 0 0 1rem 2rem;
+}
+.description-ETH{
+    font-size: 1.8rem;
+    justify-content: space-between;
+}
+.description-ETH img{
+    margin-right: 0.5rem;
+}
+/* container-creation */
+.container-creation{
+    width: 100%;
+    justify-content: left;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+.creation-img img{
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
